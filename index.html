@@ -8,15 +8,76 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="padding16">
+    <nav>
+        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray" href="#about">About</a>
+        <div class="padding8"></div>
+        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray"
+            href="#projects">Projects</a>
+        <div class="padding8"></div>
+        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray"
+            href="#contact">Contact</a>
+    </nav>
 
-    <h1 class="text-center">Drake Nguyen</h1>
-    <img class="image-center clip-circle profile-image" src="https://avatars.githubusercontent.com/u/316787837" alt="Profile Picture">
-    <h2 class="text-center">About Me</h2>
-    <p class="text-center">I am a software developer with a passion for creating innovative solutions.
-        Futhermore, I make web applications that are both functional and aesthetically pleasing.
-        Also, I develop mobile applications that provide seamless user experiences.
-    </p>
+    <div class="padding16"></div>
+
+    <div class="border-radius-8 lightgray relative">
+        <img class="image-center image-max-width-100" src="/images/banner_image.jpg" alt="Profile Picture">
+        <div class="black-to-gradient absolute-0-50 ">
+        </div>
+            <h1 class="text-center absolute-85-50 text-color-white">Drake Nguyen</h1>
+    </div>
+
+    <div class="padding16"></div>
+
+    <section id="about">
+        <div class="border-radius-8 padding16 lightgray">
+            <h1>About Me</h1>
+            <div class="padding8"></div>
+            <p>I am a software developer with a passion for creating innovative solutions.
+                I specialize in web and mobile application development, focusing on delivering
+                high-quality user experiences.</p>
+        </div>
+    </section>
+
+    <div class="padding16"></div>
+
+    <section id="projects" class="border-radius-8 padding16 lightgray">
+        <h1>Projects</h1>
+
+        <div class="padding8"></div>
+
+        <div class="lightgreen flex border-radius-8">
+            <img class=" image-size-150 flex1 image-size-300 object-fit-cover" src="/images/profile.jpg"
+                alt="Imaginate picture">
+            <div class="padding8 lightgray"></div>
+            <div class="flex1">
+                <h3>Drake Nguyen's Portfolio Website</h3>
+                <p>A responsive portfolio website showcasing my projects and skills.</p>
+            </div>
+        </div>
+
+        <div class="padding8"></div>
+
+        <div class="lightgreen flex border-radius-8 flex-reverse">
+            <div class="flex1">
+                <h3>Imaginate Android App</h3>
+                <p>AI Image showcase app using Android Studio, Kotlin, Jetpack Compose.</p>
+            </div>
+            <div class="padding8 lightgray"></div>
+
+            <img class="white image-size-300 flex1 object-fit-contain" src="/images/imaginate.jpg"
+                alt="Imaginate picture">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <h2>You can reach me at</h2>
+        <p><a href="mailto:therealdrakenguyen@gmail.com">therealdrakenguyen@gmail.com</a>.</p>
+        <p>657-768-7848</p>
+    </section>
+
 </body>
 
 </html>
