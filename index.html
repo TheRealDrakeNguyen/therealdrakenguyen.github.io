@@ -6,78 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drake Nguyen</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="padding16">
-    <nav>
-        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray" href="#about">About</a>
-        <div class="padding8"></div>
-        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray"
-            href="#projects">Projects</a>
-        <div class="padding8"></div>
-        <a class="padding8-16 text-decoration-none text-color-black border-radius-8 lightgray"
-            href="#contact">Contact</a>
-    </nav>
 
-    <div class="padding16"></div>
 
-    <div class="border-radius-8 lightgray relative">
-        <img class="image-center image-max-width-100" src="/images/banner_image.jpg" alt="Profile Picture">
-        <div class="black-to-gradient absolute-0-50 ">
-        </div>
-            <h1 class="text-center absolute-85-50 text-color-white">Drake Nguyen</h1>
-    </div>
 
-    <div class="padding16"></div>
 
-    <section id="about">
-        <div class="border-radius-8 padding16 lightgray">
-            <h1>About Me</h1>
+<body class="padding16" id="top">
+
+    <header>
+        <nav>
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+                href="#about">About</a>
             <div class="padding8"></div>
-            <p>I am a software developer with a passion for creating innovative solutions.
-                I specialize in web and mobile application development, focusing on delivering
-                high-quality user experiences.</p>
-        </div>
-    </section>
-
-    <div class="padding16"></div>
-
-    <section id="projects" class="border-radius-8 padding16 lightgray">
-        <h1>Projects</h1>
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+                href="#projects">Projects</a>
+            <div class="padding8"></div>
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+                href="#contact">Contact</a>
+        </nav>
 
         <div class="padding8"></div>
 
-        <div class="lightgreen flex border-radius-8">
-            <img class=" image-size-150 flex1 image-size-300 object-fit-cover" src="/images/profile.jpg"
-                alt="Imaginate picture">
-            <div class="padding8 lightgray"></div>
-            <div class="flex1">
-                <h3>Drake Nguyen's Portfolio Website</h3>
-                <p>A responsive portfolio website showcasing my projects and skills.</p>
+        <div class="relative">
+            <img class="border-radius-4 width-100" src="/images/banner_image.jpg" alt="Profile Picture">
+            <div class="border-radius-4 black-to-gradient absolute-0-50 ">
             </div>
+            <h1 class=" border-radius-4 text-center absolute-85-50 text-color-white">Drake Nguyen</h1>
         </div>
+    </header>
 
-        <div class="padding8"></div>
+    <div class="padding32"></div>
 
-        <div class="lightgreen flex border-radius-8 flex-reverse">
-            <div class="flex1">
-                <h3>Imaginate Android App</h3>
-                <p>AI Image showcase app using Android Studio, Kotlin, Jetpack Compose.</p>
+    <main class="image-center">
+        <section id="about">
+            <div>
+                <h1>About Me</h1>
+                <div class="padding8"></div>
+                <p class="text-justify">Hello, my name is Drake Nguyen. Furthermore, I graduated from California State
+                    Polytechnic University Pomona with a degree in Computer Science.
+                    Additionally, I have published 3 android apps on the Google Play Store which are: Clok, WeatherAI,
+                    and
+                    Imaginate. For andorid development, I used Android Studio, Kotlin, and Jetpack Compose.
+                    Moreover, I am currently working on responsive web development using HTML and CSS. Lastly, I am
+                    always
+                    eager to learn new technologies and improve my skills.</p>
             </div>
-            <div class="padding8 lightgray"></div>
+        </section>
 
-            <img class="white image-size-300 flex1 object-fit-contain" src="/images/imaginate.jpg"
-                alt="Imaginate picture">
-        </div>
-    </section>
+        <div class="padding32"></div>
 
-    <section id="contact">
-        <h1>Contact</h1>
-        <h2>You can reach me at</h2>
-        <p><a href="mailto:therealdrakenguyen@gmail.com">therealdrakenguyen@gmail.com</a>.</p>
-        <p>657-768-7848</p>
-    </section>
+        <section id="projects">
+            <h1>Projects</h1>
 
+            <div class="padding8"></div>
+
+            <div class="flex border-radius-4 card-background-color">
+                <div class="padding16 flex1"><img class=" image-center image-size-300 border-radius-4"
+                        src="/images/profile.jpg " alt="Imaginate picture"></div>
+                <div class="padding8"></div>
+                <div class="flex1 padding16">
+                    <h2>Portfolio Website</h2>
+                    <div class="padding8"></div>
+                    <p class="text-justify">Portfolio website made using HTML and CSS. Furthermore, it is responsive and
+                        mobile-friendly.
+                        Next, I plan to learn and add JavsScript to make the website more interactive.</p>
+                </div>
+            </div>
+
+            <div class="padding8"></div>
+
+            <div class="flex border-radius-4 card-background-color flex-reverse">
+                <div class="flex1 padding16">
+                    <h2>Imaginate Android App</h2>
+                    <div class="padding8"></div>
+                    <p class="text-justify">A Native Android app made using Android Studio, Kotlin, and Jetpack Compose.
+                        Moverover, the app showcases AI generated images from Midjourney with pagination.
+                        Furthermore, the app uses Firebase datastore to store images remotely.
+                    </p>
+                </div>
+                <div class="padding8"></div>
+
+                <div class="padding16 flex1"><img class="image-size-300 border-radius-4 image-center"
+                        src="/images/imaginate.jpg" alt="Imaginate picture"></div>
+            </div>
+        </section>
+
+        <div class="padding32"></div>
+
+        <section id="contact">
+            <div>
+                <h1 class="text-end">Contact</h1>
+                <div class="padding8"></div>
+                <p class="text-end"><a class="text-decoration-none text-color-black"
+                        href="mailto:therealdrakenguyen@gmail.com">TheRealDrakeNguyen@gmail.com</a></p>
+            </div>
+
+        </section>
+
+        <div class="padding32 center-item"></div>
+
+        <nav class="justify-content-center">
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+                href="#top">Back to Top</a>
+
+        </nav>
+
+        <div class="padding16"></div>
+    </main>
 </body>
 
 </html>

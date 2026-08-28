@@ -8,14 +8,31 @@ nav {
     justify-content: end;
 }
 
+#top {}
+
 #about {}
 
 #projects {}
 
 #contact {}
 
-.lightgray {
-    background-color: lightgray;
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    max-width: 100%;
+}
+
+
+main {
+    max-width: 1080px;
+}
+
+
+
+.card-background-color {
+    background-color: rgba(211, 211, 211, 0.25);
 }
 
 .lightgreen {
@@ -38,6 +55,14 @@ nav {
     position: relative;
 }
 
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-block {
+    display: block;
+}
+
 .absolute-85-50 {
     position: absolute;
     top: 90%;
@@ -52,32 +77,56 @@ nav {
     left: 50%;
     transform: translate(-50%);
 }
-.black-to-gradient{
+
+.black-to-gradient {
     width: 100%;
     height: 20%;
     background: linear-gradient(to top, black, transparent);
-}
-
-
-.padding16 {
-    padding: 16px;
 }
 
 .padding8 {
     padding: 8px;
 }
 
+.padding16 {
+    padding: 16px;
+}
+
+.padding32 {
+    padding: 32px;
+}
+
 .padding8-16 {
     padding: 8px 16px;
+}
+
+.padding200 {
+    padding: 200px;
+}
+
+.margin16 {
+    margin: 16px;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-end {
+    text-align: end;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
 .image-center {
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .clip-circle {
@@ -85,28 +134,26 @@ nav {
     overflow: hidden;
 }
 
-.object-fit-cover {
-    object-fit: cover;
-}
 
-.object-fit-contain {
-    object-fit: contain;
-}
+
 
 .image-size-300 {
+    /* height: 30vh; */
+    /* width: 30vh; */
+
     height: 300px;
     width: 300px;
 }
 
-.image-max-width-100 {
-    max-width: 100%;
+.width-100 {
+    width: 100%;
 }
 
-.border-radius-8 {
-    border-radius: 8px;
-    overflow: hidden;
-}
 
+.border-radius-4 {
+    border-radius: 4px;
+    /* overflow:scroll; */
+}
 
 .text-decoration-none {
     text-decoration: none;
@@ -114,7 +161,6 @@ nav {
 
 .flex {
     display: flex;
-    align-items: center;
 }
 
 .flex1 {
@@ -124,12 +170,6 @@ nav {
 @media screen and (max-width: 600px) {
     .flex {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .flex1 {
-        width: 100%;
-        height: auto;
     }
 
     .flex-reverse {
