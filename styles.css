@@ -20,13 +20,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-header {
-    max-width: 100%;
-}
-
 
 main {
     max-width: 1080px;
+    margin: auto;
 }
 
 
@@ -68,6 +65,7 @@ main {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 
