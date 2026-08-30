@@ -26,8 +26,6 @@ main {
     margin: auto;
 }
 
-
-
 .card-background-color {
     background-color: rgba(211, 211, 211, 0.25);
 }
@@ -154,6 +152,7 @@ main {
 
 .flex {
     display: flex;
+    align-items: center;
 }
 
 .flex1 {
