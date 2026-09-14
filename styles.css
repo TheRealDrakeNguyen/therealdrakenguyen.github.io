@@ -70,20 +70,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
-.absolute-0-50 {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.black-to-gradient {
-    width: 100%;
-    height: 20%;
-    background: linear-gradient(to top, black, transparent);
-}
-
 .padding8 {
     padding: 8px;
 }
@@ -182,7 +168,7 @@ h1 {
     font-size: clamp(2rem, 4vw, 3rem);
 }
 
-.nonrap {
+.nonwrap {
     white-space: nowrap;
 }
 
