@@ -15,104 +15,182 @@
 
     <header>
         <nav>
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
                 href="#about">About</a>
+
             <div class="padding8"></div>
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
                 href="#projects">Projects</a>
+
             <div class="padding8"></div>
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
+
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
+                href="#skills">Skills</a>
+
+            <div class="padding8"></div>
+
+            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
                 href="#contact">Contact</a>
         </nav>
 
         <div class="padding8"></div>
 
         <div class="relative">
-            <img class="border-radius-4 width-100" src="/images/banner_image.jpg" alt="Profile Picture">
-            <div class="border-radius-4 black-to-gradient absolute-0-50 ">
+            <img class="border-radius-32 width-100" src="/images/banner_image.jpg" alt="Profile Picture">
+            <div class="border-radius-32 black-to-gradient absolute-0-50 ">
             </div>
-            <h1 class=" border-radius-4 text-center absolute-85-50 text-color-white">Drake Nguyen</h1>
+            <h1 class="nonwrap text-center absolute-85-50 text-color-white">Drake Nguyen</h1>
         </div>
     </header>
 
     <div class="padding32"></div>
 
-    <main class="image-center">
-        <section id="about">
-            <div>
-                <h1>About Me</h1>
-                <div class="padding8"></div>
-                <p class="text-justify">Hello, my name is Drake Nguyen. Furthermore, I graduated from California State
-                    Polytechnic University Pomona with a degree in Computer Science.
-                    Additionally, I have published 3 android apps on the Google Play Store which are: Clok, WeatherAI,
-                    and
-                    Imaginate. For andorid development, I used Android Studio, Kotlin, and Jetpack Compose.
-                    Moreover, I am currently working on responsive web development using HTML and CSS. Lastly, I am
-                    always
-                    eager to learn new technologies and improve my skills.</p>
-            </div>
-        </section>
 
-        <div class="padding32"></div>
-
-        <section id="projects">
-            <h1>Projects</h1>
+    <section id="about" class="max-width-720">
+        <div>
+            <h1>About Me</h1>
 
             <div class="padding8"></div>
 
-            <div class="flex border-radius-4">
-                <div class="padding16 flex1"><img class=" image-center image-size-300 border-radius-4"
-                        src="/images/profile.jpg " alt="Imaginate picture"></div>
+            <p class="text-justify">Hello, my name is Drake Nguyen. Furthermore, I graduated from California State
+                Polytechnic University Pomona with a degree in Computer Science.
+                Additionally, I have published 3 android apps on the Google Play Store which are: Clok, WeatherAI,
+                and
+                Imaginate. For andorid development, I used Android Studio, Kotlin, and Jetpack Compose.
+                Moreover, I am currently working on responsive web development using HTML and CSS. Lastly, I am
+                always
+                eager to learn new technologies and improve my skills.</p>
+        </div>
+    </section>
+
+    <div class="padding32"></div>
+
+    <section id="projects" class="max-width-720">
+        <h1>Projects</h1>
+
+        <div class="padding8"></div>
+
+        <div class="flex">
+            <div class="padding16 flex1"><img class=" image-center image-size-300 border-radius-32"
+                    src="/images/profile.jpg " alt="Imaginate picture"></div>
+
+            <div class="padding8"></div>
+
+            <div class="flex1 padding16">
+                <h2>Portfolio Website</h2>
+
                 <div class="padding8"></div>
-                <div class="flex1 padding16">
-                    <h2>Portfolio Website</h2>
-                    <div class="padding8"></div>
-                    <p class="text-justify">Portfolio website made using HTML and CSS. Furthermore, it is responsive and
-                        mobile-friendly.
-                        Next, I plan to learn and add JavsScript to make the website more interactive.</p>
-                </div>
+
+                <p class="text-justify">Portfolio website made using HTML and CSS. Furthermore, it is responsive and
+                    mobile-friendly.
+                    Next, I plan to learn and add JavsScript to make the website more interactive.</p>
+            </div>
+        </div>
+
+        <div class="padding8"></div>
+
+        <div class="flex flex-reverse">
+            <div class="flex1 padding16">
+                <h2>Imaginate Android App</h2>
+
+                <div class="padding8"></div>
+
+                <p class="text-justify ">A Native Android app made using Android Studio, Kotlin, and Jetpack
+                    Compose.
+                    Moverover, the app showcases AI generated images from Midjourney with pagination.
+                    Furthermore, the app uses Firebase datastore to store images remotely.
+                </p>
+
+                <div class="padding8"></div>
+
+                <nav class="justify-content-end">
+                    <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
+                        href="https://play.google.com/store/apps/details?id=com.kingfu.aigallery&hl=en_US"
+                        target="_blank">View</a>
+
+                </nav>
             </div>
 
             <div class="padding8"></div>
 
-            <div class="flex border-radius-4 flex-reverse">
-                <div class="flex1 padding16">
-                    <h2>Imaginate Android App</h2>
-                    <div class="padding8"></div>
-                    <p class="text-justify">A Native Android app made using Android Studio, Kotlin, and Jetpack Compose.
-                        Moverover, the app showcases AI generated images from Midjourney with pagination.
-                        Furthermore, the app uses Firebase datastore to store images remotely.
-                    </p>
-                </div>
-                <div class="padding8"></div>
+            <div class="padding16 flex1"><img class="image-size-300 border-radius-32 image-center"
+                    src="/images/imaginate.jpg" alt="Imaginate picture"></div>
+        </div>
+    </section>
 
-                <div class="padding16 flex1"><img class="image-size-300 border-radius-4 image-center"
-                        src="/images/imaginate.jpg" alt="Imaginate picture"></div>
-            </div>
-        </section>
 
-        <div class="padding32"></div>
+    <div class="padding32"></div>
 
-        <section id="contact">
-            <div>
-                <h1 class="text-end">Contact</h1>
-                <div class="padding8"></div>
-                <p class="text-end"><a class="text-decoration-none text-color-black"
-                        href="mailto:therealdrakenguyen@gmail.com">TheRealDrakeNguyen@gmail.com</a></p>
+
+    <section id="skills">
+        <h1>Skills</h1>
+
+        <div class="padding8"></div>
+
+        <div class="flex-row">
+
+            <div class="card-background-color padding16 border-radius-8 width-300px">
+                <h2>HTML</h2>
+                <p>Used to structure webpages.</p>
             </div>
 
-        </section>
+            <div class="padding8"></div>
 
-        <div class="padding32 center-item"></div>
+            <div class="card-background-color padding16 border-radius-8 width-300px">
+                <h2>CSS</h2>
+                <p>Used to style and create responsive layouts.</p>
+            </div>
 
-        <nav class="justify-content-center">
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-4 card-background-color"
-                href="#top">Back to Top</a>
+            <div class="padding8"></div>
 
-        </nav>
 
-        <div class="padding16"></div>
-    </main>
+            <div class="card-background-color padding16 border-radius-8 width-300px">
+                <h2>Javascript</h2>
+                <p>Used for building interactive web applications.</p>
+            </div>
+
+            <div class="padding8"></div>
+
+
+            <div class="card-background-color padding16 border-radius-8 width-300px">
+                <h2>Kotlin</h2>
+                <p>Used for Android application development.</p>
+            </div>
+
+            <div class="padding8"></div>
+
+            <div class="card-background-color padding16 border-radius-4 width-300px">
+                <h2>Jetpack Compose</h2>
+                <p>Used for building Android UIs.</p>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <div class="padding32"></div>
+
+    <section id="contact">
+        <div>
+            <h1 class="text-end">Contact</h1>
+            <div class="padding8"></div>
+            <p class="text-end"><a class="text-decoration-none text-color-black"
+                    href="mailto:therealdrakenguyen@gmail.com">TheRealDrakeNguyen@gmail.com</a></p>
+        </div>
+
+    </section>
+
+    <div class="padding32 center-item"></div>
+
+    <nav class="justify-content-center">
+        <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
+            href="#top">Back to Top</a>
+
+    </nav>
+
+    <div class="padding16"></div>
 </body>
 
 </html>
