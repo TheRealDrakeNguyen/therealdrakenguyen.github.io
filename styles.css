@@ -136,10 +136,20 @@ body {
 .image-size-300 {
     height: 300px;
     width: 300px;
+    /* object-fit: fit; */
 }
 
+.scale-70 {
+    transform: scale(0.7);
+}
 .width-100 {
     width: 100%;
+}
+
+.text-shadow {
+  text-shadow:
+    0 3px 8px rgba(0, 0, 0, 1),
+    0 6px 12px rgba(0, 0, 0, 0.9);
 }
 
 
