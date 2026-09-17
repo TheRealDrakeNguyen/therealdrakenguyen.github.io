@@ -11,61 +11,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="padding16" id="top">
+<body id="top">
 
-    <header>
-        <nav class="flex-row">
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                href="#about">About</a>
-
-            <div class="padding8"></div>
-
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                href="#projects">Projects</a>
-
-            <div class="padding8"></div>
-
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                href="#skills">Skills</a>
-
-            <div class="padding8"></div>
-
-            <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                href="#contact">Contact</a>
-        </nav>
+    <nav class="top-nav flex-row padding16">
+        <a class="padding8-16 text-decoration-none text-color-black" href="#about">About</a>
 
         <div class="padding8"></div>
 
-        <div class="relative">
-            <h1 class="text-center absolute-85-50 text-color-white text-shadow nonwrap">Drake Nguyen</h1>
-            <img class="border-radius-32 width-100" src="/images/banner_image.jpg" alt="Profile Picture">
-        </div>
-        </div>
-    </header>
+        <a class="padding8-16 text-decoration-none text-color-black" href="#projects">Projects</a>
+
+        <div class="padding8"></div>
+
+        <a class="padding8-16 text-decoration-none text-color-black" href="#skills">Skills</a>
+
+        <div class="padding8"></div>
+
+        <a class="padding8-16 text-decoration-none text-color-black" href="#contact">Contact</a>
+    </nav>
+
+
+    <div class="relative">
+        <h1 class="text-center absolute-85-50 text-color-white text-shadow nonwrap">Drake Nguyen</h1>
+        <img class="width-100 height-100vh image-object-fit-cover" src="/images/banner_image.jpg" alt="Profile Picture">
+    </div>
 
     <div class="padding32"></div>
 
 
-    <section id="about" class="max-width-720">
-        <div>
-            <h1>About Me</h1>
+    <section id="about" class="max-width-720 padding16">
+        <h1>About Me</h1>
 
-            <div class="padding8"></div>
+        <div class="padding8"></div>
 
-            <p class="text-justify">Hello, my name is Drake Nguyen. Furthermore, I graduated from California State
-                Polytechnic University Pomona with a degree in Computer Science.
-                Additionally, I have published 3 android apps on the Google Play Store which are: Clok, WeatherAI,
-                and
-                Imaginate. For andorid development, I used Android Studio, Kotlin, and Jetpack Compose.
-                Moreover, I am currently working on responsive web development using HTML and CSS. Lastly, I am
-                always
-                eager to learn new technologies and improve my skills.</p>
-        </div>
+        <p class="text-justify">Hello, my name is Drake Nguyen. Furthermore, I graduated from California State
+            Polytechnic University Pomona with a degree in Computer Science.
+            Additionally, I have published 3 android apps on the Google Play Store which are: Clok, WeatherAI,
+            and
+            Imaginate. For andorid development, I used Android Studio, Kotlin, and Jetpack Compose.
+            Moreover, I am currently working on responsive web development using HTML and CSS. Lastly, I am
+            always
+            eager to learn new technologies and improve my skills.</p>
     </section>
 
     <div class="padding32"></div>
 
-    <section id="projects" class="max-width-720">
+    <section id="projects" class="max-width-720 padding16">
         <h1>Projects</h1>
 
         <div class="padding8"></div>
@@ -101,35 +91,28 @@
                     Furthermore, the app uses Firebase datastore to store images remotely.
                 </p>
 
-                <div class="padding8"></div>
-
-                <nav class="justify-content-end">
-                    <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                        href="https://play.google.com/store/apps/details?id=com.kingfu.aigallery&hl=en_US"
-                        target="_blank">View</a>
-
-                </nav>
             </div>
 
             <div class="padding8"></div>
 
-            <div class="padding16 flex1"><img class="image-size-300 border-radius-32 image-center"
-                    src="/images/imaginate.jpg" alt="Imaginate picture"></div>
+            <a href="https://play.google.com/store/apps/details?id=com.kingfu.aigallery&hl=en_US"
+                        target="_blank" class="padding16 flex1"><img class="image-size-300 border-radius-32 image-center"
+                    src="/images/imaginate.jpg" alt="Imaginate picture"></a>
         </div>
     </section>
 
 
     <div class="padding32"></div>
 
-    <section id="Certifications" class="max-width-720">
+    <section id="Certifications" class="max-width-720 padding16">
         <h1>Certifications</h1>
 
         <div class="padding8"></div>
 
-
         <div class="flex">
-            <div class="padding16 flex1"><img class=" image-center image-size-300 border-radius-32 scale-70"
-                    src="/images/fcc.png " alt="Imaginate picture"></div>
+            <a href="https://www.freecodecamp.org/certification/fcc-eb172e0e-a814-417f-846d-af96c5e7d75e/responsive-web-design-v9"
+                        target="_blank" class="padding16 flex1"><img class=" image-center image-size-300 border-radius-32 scale-70"
+                    src="/images/fcc.png " alt="Imaginate picture"></a>
 
             <div class="padding8"></div>
 
@@ -138,26 +121,15 @@
 
                 <div class="padding8"></div>
 
-                <p class="text-justify">Successfully completed the Responsive Web Design course from freeCodeCamp on September 3, 2026. It represents approximately 300 hours of coursework.</p>
-
-                <div class="padding8"></div>
-
-
-                <nav class="justify-content-end">
-                    <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
-                        href="https://www.freecodecamp.org/certification/fcc-eb172e0e-a814-417f-846d-af96c5e7d75e/responsive-web-design-v9"
-                        target="_blank">View</a>
+                <p class="text-justify">Successfully completed the Responsive Web Design course from freeCodeCamp on
+                    September 3, 2026. It represents approximately 300 hours of coursework.</p>
             </div>
         </div>
     </section>
 
     <div class="padding32"></div>
 
-
-
-
-
-    <section id="skills">
+    <section id="skills " class="padding16">
         <h1>Skills</h1>
 
         <div class="padding8"></div>
@@ -206,20 +178,17 @@
 
     <div class="padding32"></div>
 
-    <section id="contact">
-        <div>
+    <section id="contact" class="padding16">
             <h1 class="text-end">Contact</h1>
             <div class="padding8"></div>
             <p class="text-end"><a class="text-decoration-none text-color-black"
                     href="mailto:therealdrakenguyen@gmail.com">TheRealDrakeNguyen@gmail.com</a></p>
-        </div>
-
     </section>
 
-    <div class="padding32 center-item"></div>
+    <div class="padding32"></div>
 
     <nav class="justify-content-center">
-        <a class="padding8-16 text-decoration-none text-color-black border-radius-32 card-background-color"
+        <a class="padding8-16 text-decoration-none text-color-black"
             href="#top">Back to Top</a>
 
     </nav>
